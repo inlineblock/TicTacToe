@@ -16,6 +16,10 @@
 		95ED5939157154CE0080292B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95ED5937157154CE0080292B /* MainStoryboard_iPhone.storyboard */; };
 		95ED593C157154CE0080292B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95ED593A157154CE0080292B /* MainStoryboard_iPad.storyboard */; };
 		95ED593F157154CE0080292B /* DMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95ED593E157154CE0080292B /* DMViewController.m */; };
+		95ED594E157157040080292B /* DMGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95ED594D157157040080292B /* DMGridView.m */; };
+		95ED5953157157690080292B /* DMGridModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 95ED5952157157690080292B /* DMGridModel.m */; };
+		95ED59D21572C7F20080292B /* DMMinimax.m in Sources */ = {isa = PBXBuildFile; fileRef = 95ED59D11572C7F20080292B /* DMMinimax.m */; };
+		95ED59D51572EBFB0080292B /* DMGridButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 95ED59D41572EBFB0080292B /* DMGridButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +27,24 @@
 		95ED5925157154CE0080292B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		95ED5927157154CE0080292B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		95ED5929157154CE0080292B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		95ED592D157154CE0080292B /* tictactoe-Info.plist */ = {isa = PBXFileReference; path = "tictactoe-Info.plist"; sourceTree = "<group>"; };
+		95ED592D157154CE0080292B /* tictactoe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tictactoe-Info.plist"; sourceTree = "<group>"; };
 		95ED592F157154CE0080292B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		95ED5931157154CE0080292B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		95ED5933157154CE0080292B /* tictactoe-Prefix.pch */ = {isa = PBXFileReference; path = "tictactoe-Prefix.pch"; sourceTree = "<group>"; };
-		95ED5934157154CE0080292B /* DMAppDelegate.h */ = {isa = PBXFileReference; path = DMAppDelegate.h; sourceTree = "<group>"; };
+		95ED5933157154CE0080292B /* tictactoe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tictactoe-Prefix.pch"; sourceTree = "<group>"; };
+		95ED5934157154CE0080292B /* DMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMAppDelegate.h; sourceTree = "<group>"; };
 		95ED5935157154CE0080292B /* DMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMAppDelegate.m; sourceTree = "<group>"; };
 		95ED5938157154CE0080292B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		95ED593B157154CE0080292B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		95ED593D157154CE0080292B /* DMViewController.h */ = {isa = PBXFileReference; path = DMViewController.h; sourceTree = "<group>"; };
+		95ED593D157154CE0080292B /* DMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMViewController.h; sourceTree = "<group>"; };
 		95ED593E157154CE0080292B /* DMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMViewController.m; sourceTree = "<group>"; };
+		95ED594C157157040080292B /* DMGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMGridView.h; sourceTree = "<group>"; };
+		95ED594D157157040080292B /* DMGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMGridView.m; sourceTree = "<group>"; };
+		95ED5951157157690080292B /* DMGridModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMGridModel.h; sourceTree = "<group>"; };
+		95ED5952157157690080292B /* DMGridModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMGridModel.m; sourceTree = "<group>"; };
+		95ED59D01572C7F10080292B /* DMMinimax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMMinimax.h; sourceTree = "<group>"; };
+		95ED59D11572C7F20080292B /* DMMinimax.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMMinimax.m; sourceTree = "<group>"; };
+		95ED59D31572EBFB0080292B /* DMGridButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMGridButton.h; sourceTree = "<group>"; };
+		95ED59D41572EBFB0080292B /* DMGridButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMGridButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +91,8 @@
 		95ED592B157154CE0080292B /* tictactoe */ = {
 			isa = PBXGroup;
 			children = (
+				95ED5950157157470080292B /* Models */,
+				95ED594F1571570E0080292B /* VIews */,
 				95ED5934157154CE0080292B /* DMAppDelegate.h */,
 				95ED5935157154CE0080292B /* DMAppDelegate.m */,
 				95ED5937157154CE0080292B /* MainStoryboard_iPhone.storyboard */,
@@ -86,6 +100,8 @@
 				95ED593D157154CE0080292B /* DMViewController.h */,
 				95ED593E157154CE0080292B /* DMViewController.m */,
 				95ED592C157154CE0080292B /* Supporting Files */,
+				95ED59D01572C7F10080292B /* DMMinimax.h */,
+				95ED59D11572C7F20080292B /* DMMinimax.m */,
 			);
 			path = tictactoe;
 			sourceTree = "<group>";
@@ -99,6 +115,26 @@
 				95ED5933157154CE0080292B /* tictactoe-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95ED594F1571570E0080292B /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+				95ED594C157157040080292B /* DMGridView.h */,
+				95ED594D157157040080292B /* DMGridView.m */,
+				95ED59D31572EBFB0080292B /* DMGridButton.h */,
+				95ED59D41572EBFB0080292B /* DMGridButton.m */,
+			);
+			name = VIews;
+			sourceTree = "<group>";
+		};
+		95ED5950157157470080292B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				95ED5951157157690080292B /* DMGridModel.h */,
+				95ED5952157157690080292B /* DMGridModel.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +204,10 @@
 				95ED5932157154CE0080292B /* main.m in Sources */,
 				95ED5936157154CE0080292B /* DMAppDelegate.m in Sources */,
 				95ED593F157154CE0080292B /* DMViewController.m in Sources */,
+				95ED594E157157040080292B /* DMGridView.m in Sources */,
+				95ED5953157157690080292B /* DMGridModel.m in Sources */,
+				95ED59D21572C7F20080292B /* DMMinimax.m in Sources */,
+				95ED59D51572EBFB0080292B /* DMGridButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +292,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tictactoe/tictactoe-Prefix.pch";
 				INFOPLIST_FILE = "tictactoe/tictactoe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -263,6 +304,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tictactoe/tictactoe-Prefix.pch";
 				INFOPLIST_FILE = "tictactoe/tictactoe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -287,6 +329,7 @@
 				95ED5944157154CE0080292B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
